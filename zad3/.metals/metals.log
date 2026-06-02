@@ -1,0 +1,148 @@
+2026.05.25 13:49:57 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.121.0.
+2026.05.25 13:49:57 INFO  Memory monitor started
+2026.05.25 13:49:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.25 13:49:59 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:49:59 WARN  no build tool detected in workspace 'C:\Users\weron\OneDrive\Dokumenty\java\zad3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.25 13:49:59 WARN  Build server is not auto-connectable.
+2026.05.25 13:49:59 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java
+2026.05.25 13:49:59 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:00 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/main/java/com/javmar%20kt/Main.java. Output:
+
+2026.05.25 13:50:11 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:29 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:31 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:35 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:37 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:37 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:39 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:39 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:39 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:39 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:39 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:41 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:42 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:42 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:42 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:42 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:45 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 13:50:46 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/main/java/com/javmar%20kt/Main.java. Output:
+
+2026.05.25 14:05:49 INFO  no build target found for c:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javmar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:05:49 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java
+2026.05.25 14:05:49 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:05:49 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/main/java/com/javamar%20kt/Main.java. Output:
+
+2026.05.25 14:05:49 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:05:49 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:05:49 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:05:49 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:05:49 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java. Using fallback presentation compiler.
+2026.05.25 14:06:28 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java
+2026.05.25 14:06:28 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/test/java/com/javamar%20kt/promotions/PromotionsTest.java. Output:
+
+2026.05.25 14:06:28 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java. Using fallback presentation compiler.
+2026.05.25 14:06:28 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java. Using fallback presentation compiler.
+2026.05.25 14:06:28 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java. Using fallback presentation compiler.
+2026.05.25 14:06:28 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java. Using fallback presentation compiler.
+2026.05.25 14:06:28 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java. Using fallback presentation compiler.
+2026.05.25 14:06:28 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java. Using fallback presentation compiler.
+2026.05.25 14:06:29 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/test/java/com/javamar%20kt/promotions/PromotionsTest.java. Output:
+
+2026.05.25 14:07:17 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java
+2026.05.25 14:07:17 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java. Using fallback presentation compiler.
+2026.05.25 14:07:17 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/test/java/com/javamar%20kt/util/ProductUtilsTest.java. Output:
+
+2026.05.25 14:07:18 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java. Using fallback presentation compiler.
+2026.05.25 14:07:17 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java. Using fallback presentation compiler.
+2026.05.25 14:07:18 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java. Using fallback presentation compiler.
+2026.05.25 14:07:18 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java. Using fallback presentation compiler.
+2026.05.25 14:07:19 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/test/java/com/javamar%20kt/util/ProductUtilsTest.java. Output:
+
+2026.05.25 14:10:11 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java
+2026.05.25 14:10:11 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java. Using fallback presentation compiler.
+2026.05.25 14:10:11 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/main/java/com/javamar%20kt/model/Product.java. Output:
+
+2026.05.25 14:10:12 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java. Using fallback presentation compiler.
+2026.05.25 14:10:12 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java. Using fallback presentation compiler.
+2026.05.25 14:10:12 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java. Using fallback presentation compiler.
+2026.05.25 14:10:12 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java. Using fallback presentation compiler.
+2026.05.25 14:10:12 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/main/java/com/javamar%20kt/model/Product.java. Output:
+
+2026.05.25 14:10:15 INFO  Shutting down server
+2026.05.25 14:10:15 INFO  Memory monitor stopped
+2026.05.25 14:10:15 INFO  shutting down Metals
+maj 25, 2026 2:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2026.05.28 14:23:37 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.121.0.
+2026.05.28 14:23:37 INFO  Memory monitor started
+2026.05.28 14:23:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.28 14:23:40 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java. Using fallback presentation compiler.
+2026.05.28 14:23:46 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.121.0.
+2026.05.28 14:23:46 INFO  Memory monitor started
+2026.05.28 14:23:55 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.121.0.
+2026.05.28 14:23:55 INFO  Memory monitor started
+2026.05.28 14:23:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.28 14:23:59 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java. Using fallback presentation compiler.
+2026.05.28 14:23:59 WARN  no build tool detected in workspace 'C:\Users\weron\OneDrive\Dokumenty\java\zad3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.28 14:24:00 WARN  Build server is not auto-connectable.
+2026.05.28 14:23:59 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\cart\ShoppingCart.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\OrderValuePercentageDiscountPromotion.java
+2026.05.28 14:24:00 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\cart\util\ProductUtils.java
+2026.05.28 14:24:00 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java. Using fallback presentation compiler.
+2026.05.28 14:24:08 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.121.0.
+2026.05.28 14:24:08 INFO  Memory monitor started
+2026.05.28 14:24:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.28 14:24:13 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java. Using fallback presentation compiler.
+2026.05.28 14:24:13 WARN  no build tool detected in workspace 'C:\Users\weron\OneDrive\Dokumenty\java\zad3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.28 14:24:13 WARN  Build server is not auto-connectable.
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\util\ProductUtilsTest.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\model\Product.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\cart\util\ProductUtils.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\cart\ShoppingCart.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\test\java\com\javamar kt\promotions\PromotionsTest.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\OrderValuePercentageDiscountPromotion.java
+2026.05.28 14:24:13 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\Main.java
+2026.05.28 14:24:13 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java. Using fallback presentation compiler.
+2026.05.28 14:24:17 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamar kt\promotions\Promotion.java. Using fallback presentation compiler.
+2026.05.28 14:24:17 INFO  Shutting down server
+2026.05.28 14:24:17 INFO  Memory monitor stopped
+2026.05.28 14:24:17 INFO  shutting down Metals
+2026.05.28 14:24:18 WARN  Running javac-semanticdb failed for file:///C:/Users/weron/OneDrive/Dokumenty/java/zad3/src/main/java/com/javamar%20kt/promotions/Promotion.java. Output:
+
+2026.05.29 19:02:43 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.122.1.
+2026.05.29 19:02:43 INFO  Memory monitor started
+2026.05.29 19:02:44 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.29 19:02:45 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.05.29 19:02:45 WARN  no build tool detected in workspace 'C:\Users\weron\OneDrive\Dokumenty\java\zad3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.29 19:02:45 WARN  Build server is not auto-connectable.
+2026.05.29 19:02:45 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java
+2026.05.29 19:02:45 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.05.29 19:02:47 INFO  time: code lens generation in 1.89s
+2026.05.29 19:02:56 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.05.29 19:27:55 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.05.30 02:11:43 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.05.30 17:29:09 INFO  Shutting down server
+2026.05.30 17:29:09 INFO  Memory monitor stopped
+2026.05.30 17:29:09 INFO  shutting down Metals
+2026.05.30 17:29:09 INFO  Exiting server
+2026.06.02 10:13:57 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\weron\OneDrive\Dokumenty\java\zad3' for client Visual Studio Code 1.122.1.
+2026.06.02 10:13:57 INFO  Memory monitor started
+2026.06.02 10:13:57 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.02 10:13:58 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.06.02 10:13:58 WARN  no build tool detected in workspace 'C:\Users\weron\OneDrive\Dokumenty\java\zad3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.06.02 10:13:58 WARN  Build server is not auto-connectable.
+2026.06.02 10:13:58 WARN  no build target for: C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java
+2026.06.02 10:13:58 INFO  no build target found for C:\Users\weron\OneDrive\Dokumenty\java\zad3\src\main\java\com\javamarkt\Main.java. Using fallback presentation compiler.
+2026.06.02 10:13:59 INFO  time: code lens generation in 1.66s
