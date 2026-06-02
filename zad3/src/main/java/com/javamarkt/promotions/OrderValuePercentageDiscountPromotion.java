@@ -1,14 +1,17 @@
+// OrderValuePercentageDiscountPromotion.java
+// Promocja: jeśli suma koszyka > threshold, obniż wszystkie ceny o percentage.
+
 package com.javamarkt.promotions;
 
+import com.javamarkt.cart.util.ProductUtils;
 import com.javamarkt.model.Product;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 
 public class OrderValuePercentageDiscountPromotion implements Promotion {
 
-    private final double threshold;
-    private final double percentage;
+    private final double threshold;  // próg np. 300 zł
+    private final double percentage; // np. 0.05 = 5%
 
     public OrderValuePercentageDiscountPromotion(double threshold, double percentage) {
         this.threshold = threshold;
@@ -17,17 +20,22 @@ public class OrderValuePercentageDiscountPromotion implements Promotion {
 
     @Override
     public List<Product> apply(List<Product> products) {
-        if (products == null || products.isEmpty()) return List.of();
+        double sum = ProductUtils.sumPrices(products);
 
-        double sum = products.stream()
-                .filter(Objects::nonNull)
-                .mapToDouble(Product::getDiscountPrice)
-                .sum();
+        // Jeśli nie przekracza progu — nic nie robimy
+        if (sum <= threshold) return new ArrayList<>(products);
 
-        if (sum <= threshold) return products;
+        // Tworzymy nową listę z obniżonymi cenami
+        List<Product> result = new ArrayList<>();
+        for (Product p : products) {
+            double newPrice = p.getDiscountPrice() * (1 - percentage);
+            result.add(p.withDiscountPrice(newPrice));
+        }
+        return result;
+    }
 
-        return products.stream()
-                .map(p -> p.withDiscountPrice(p.getDiscountPrice() * (1 - percentage)))
-                .collect(Collectors.toList());
+    @Override
+    public String getName() {
+        return "OrderValuePercentageDiscount";
     }
 }

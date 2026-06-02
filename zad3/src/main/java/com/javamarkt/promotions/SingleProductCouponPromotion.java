@@ -1,9 +1,11 @@
+// SingleProductCouponPromotion.java
+// Obniża cenę tylko jednego produktu o podany procent.
+
 package com.javamarkt.promotions;
 
 import com.javamarkt.model.Product;
-import java.util.List;
 import java.util.ArrayList;
-
+import java.util.List;
 
 public class SingleProductCouponPromotion implements Promotion {
 
@@ -17,19 +19,21 @@ public class SingleProductCouponPromotion implements Promotion {
 
     @Override
     public List<Product> apply(List<Product> products) {
-        if (products == null || products.isEmpty()) return List.of();
-
         List<Product> result = new ArrayList<>();
-        boolean used = false;
 
         for (Product p : products) {
-            if (!used && p.getCode().equals(productCode)) {
-                result.add(p.withDiscountPrice(p.getDiscountPrice() * (1 - percentage)));
-                used = true;
+            if (p.getCode().equals(productCode)) {
+                double newPrice = p.getDiscountPrice() * (1 - percentage);
+                result.add(p.withDiscountPrice(newPrice));
             } else {
                 result.add(p);
             }
         }
         return result;
+    }
+
+    @Override
+    public String getName() {
+        return "SingleProductCoupon";
     }
 }

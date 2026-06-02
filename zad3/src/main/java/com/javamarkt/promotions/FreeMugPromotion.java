@@ -1,32 +1,36 @@
+// FreeMugPromotion.java
+// Jeśli suma koszyka > threshold, dodajemy produkt "kubek" o cenie 0.
+
 package com.javamarkt.promotions;
 
+import com.javamarkt.cart.util.ProductUtils;
 import com.javamarkt.model.Product;
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Objects;
+import java.util.List;
 
 public class FreeMugPromotion implements Promotion {
 
     private final double threshold;
-    private final Product mugProduct;
+    private final Product mug;
 
-    public FreeMugPromotion(double threshold, Product mugProduct) {
+    public FreeMugPromotion(double threshold, Product mug) {
         this.threshold = threshold;
-        this.mugProduct = mugProduct;
+        this.mug = mug;
     }
 
     @Override
     public List<Product> apply(List<Product> products) {
-        if (products == null || products.isEmpty()) return List.of();
-
-        double sum = products.stream()
-                .mapToDouble(Product::getDiscountPrice)
-                .sum();
-
-        if (sum <= threshold) return products;
-
+        double sum = ProductUtils.sumPrices(products);
         List<Product> result = new ArrayList<>(products);
-        result.add(mugProduct.withDiscountPrice(0.0));
+
+        if (sum > threshold) {
+            result.add(mug); // kubek gratis
+        }
         return result;
+    }
+
+    @Override
+    public String getName() {
+        return "FreeMug";
     }
 }

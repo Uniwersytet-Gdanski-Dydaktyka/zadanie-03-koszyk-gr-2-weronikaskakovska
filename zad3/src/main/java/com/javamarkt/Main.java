@@ -1,12 +1,11 @@
 package com.javamarkt;
 
+import com.javamarkt.cart.util.ShoppingCart;
 import com.javamarkt.model.Product;
-import com.javamarkt.cart.ShoppingCart;
 import com.javamarkt.promotions.*;
-import com.javamarkt.util.ProductUtils;
+import com.javamarkt.cart.util.ProductUtils;
 
 import java.util.List;
-
 
 public class Main {
     public static void main(String[] args) {
