@@ -1,0 +1,70 @@
+@startuml JavaMarkt Shopping Cart
+
+interface Promotion {
+  + apply(products: List<Product>): List<Product>
+  + getName(): String
+}
+
+class Product {
+  - code: String
+  - name: String
+  - price: double
+  - discountPrice: double
+  + withDiscountPrice(double): Product
+  + getCode(): String
+  + getPrice(): double
+  + getDiscountPrice(): double
+}
+
+class ShoppingCart {
+  - products: List<Product>
+  - promotions: List<Promotion>
+  + addProduct(Product)
+  + addPromotion(Promotion)
+  + applyPromotionsInOrder(): List<Product>
+  + applyBestPromotionOrderForCustomer(): List<Product>
+  + getProducts(): List<Product>
+}
+
+class FreeMugPromotion {
+  - threshold: double
+  - mug: Product
+}
+class OrderValuePercentageDiscountPromotion {
+  - threshold: double
+  - percentage: double
+}
+class SingleProductCouponPromotion {
+  - productCode: String
+  - percentage: double
+}
+class ThreeForTwoCheapestFreePromotion {
+}
+
+class ProductUtils <<utility>> {
+  + {static} sumPrices(Collection<Product>): double
+  + {static} sumDiscountPrices(Collection<Product>): double
+}
+class ProductComparators <<utility>> {
+  + {static} BY_PRICE_ASC: Comparator<Product>
+  + {static} BY_PRICE_DESC: Comparator<Product>
+}
+class BestPromotionOrderFinder <<utility>> {
+  + {static} findBestOrder(...): List<Product>
+}
+
+FreeMugPromotion ..|> Promotion
+OrderValuePercentageDiscountPromotion ..|> Promotion
+SingleProductCouponPromotion ..|> Promotion
+ThreeForTwoCheapestFreePromotion ..|> Promotion
+
+ShoppingCart ..> Product : uses
+ShoppingCart ..> Promotion : uses
+ShoppingCart ..> BestPromotionOrderFinder : delegates
+ShoppingCart ..> ProductUtils : uses
+
+FreeMugPromotion ..> ProductUtils : uses
+OrderValuePercentageDiscountPromotion ..> ProductUtils : uses
+ThreeForTwoCheapestFreePromotion ..> ProductComparators : uses
+
+@enduml

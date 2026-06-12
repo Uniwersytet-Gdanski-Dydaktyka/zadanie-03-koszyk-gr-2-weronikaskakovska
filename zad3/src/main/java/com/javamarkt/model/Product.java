@@ -1,6 +1,6 @@
 // Product.java
-// Ta klasa reprezentuje pojedynczy produkt w sklepie.
-// Jest IMMUTABLE — czyli po stworzeniu obiektu nie można go zmienić.
+// Klasa reprezentuje pojedynczy produkt w sklepie.
+// Jest IMMUTABLE
 // To jest bardzo dobre dla promocji, bo nie psujemy oryginalnych danych.
 
 package com.javamarkt.model;
@@ -31,8 +31,8 @@ public final class Product {
     public double getPrice() { return price; }
     public double getDiscountPrice() { return discountPrice; }
 
-    // Tworzy NOWY produkt z inną ceną po rabacie
-    // To jest kluczowe dla immutability
+    // Tworzy nowy produkt z inną ceną po rabacie
+    // kluczowe dla immutability
     public Product withDiscountPrice(double newPrice) {
         return new Product(code, name, price, newPrice);
     }
