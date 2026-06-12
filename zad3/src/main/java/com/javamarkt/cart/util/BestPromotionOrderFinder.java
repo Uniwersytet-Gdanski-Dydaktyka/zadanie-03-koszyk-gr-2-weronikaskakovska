@@ -1,3 +1,5 @@
+//Klasa sprawdza wszystkie możliwe kolejności i wybiera tę z najniższą sumą
+
 package com.javamarkt.cart.util;
 
 import com.javamarkt.model.Product;
@@ -12,13 +14,13 @@ public class BestPromotionOrderFinder {
     // Zwraca listę produktów po zastosowaniu najlepszej kolejności promocji
     public static List<Product> findBestOrder(List<Product> products, List<Promotion> promotions) {
         if (products == null || products.isEmpty() || promotions == null || promotions.isEmpty()) {
-            return new ArrayList<>(products);
+            return new ArrayList<>(products);  // zabezpieczenie przed nullem / pustą listą
         }
 
-        double bestTotal = Double.MAX_VALUE;
+        double bestTotal = Double.MAX_VALUE; // startuje od "nieskończoności"
         List<Product> bestProducts = null;
 
-        List<List<Promotion>> perms = permutations(promotions);
+        List<List<Promotion>> perms = permutations(promotions); // generuje wszystkie kolejności
         for (List<Promotion> order : perms) {
             List<Product> current = new ArrayList<>(products);
             for (Promotion p : order) {
